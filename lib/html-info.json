@@ -1,0 +1,18 @@
+{
+  "button": {
+    "background": {
+      "startColor": "rgb(138, 221, 109)",
+      "startPosition": "50%",
+      "stopColor": "rgb(96, 176, 68)",
+      "stopPosition": "0%"
+    },
+    "fontFamily": "Helvetica, arial, freesans, clean, sans-serif",
+    "fontSize": "13px",
+    "fontWeight": "bold",
+    "height": 49,
+    "innerHeight": 201.625,
+    "innerWidth": 201.625,
+    "text": "Support via Gratipay",
+    "width": 202.625
+  }
+}
