@@ -25,7 +25,8 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "extract-html-info": "electron lib/scripts/extract-html-info.main.js | tee lib/html-info.json"
+    "extract-html-info": "electron lib/scripts/extract-html-info.main.js | tee lib/html-info.json",
+    "generate-svg": "mkdir -p dist && mustache lib/html-info.json lib/gratipay-badge.mustache.svg | tee dist/gratipay-badge.svg"
   },
   "dependencies": {},
   "devDependencies": {
@@ -34,6 +35,7 @@
     "foundry-release-git": "~1.1.0",
     "foundry-release-git-semver-branches": "~1.1.0",
     "foundry-release-npm": "~1.1.0",
+    "mustache": "~2.2.1",
     "underscore": "~1.8.3"
   },
   "keywords": [],
