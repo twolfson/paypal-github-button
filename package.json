@@ -27,6 +27,7 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
+    "electron-prebuilt": "~0.37.2",
     "foundry": "~3.0.0",
     "foundry-release-git": "~1.1.0",
     "foundry-release-git-semver-branches": "~1.1.0",
