@@ -24,7 +24,9 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "scripts": {},
+  "scripts": {
+    "extract-html-info": "electron lib/scripts/extract-html-info.main.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "electron-prebuilt": "~0.37.2",
