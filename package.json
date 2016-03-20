@@ -25,7 +25,7 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "extract-html-info": "electron lib/scripts/extract-html-info.main.js"
+    "extract-html-info": "electron lib/scripts/extract-html-info.main.js | tee lib/html-info.json"
   },
   "dependencies": {},
   "devDependencies": {
