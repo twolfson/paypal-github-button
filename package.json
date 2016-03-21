@@ -1,7 +1,7 @@
 {
   "name": "paypal-github-button",
   "description": "GitHub styled button for PayPal",
-  "version": "2.3.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/twolfson/paypal-github-button",
   "author": {
     "name": "Todd Wolfson",
