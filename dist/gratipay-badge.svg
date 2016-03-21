@@ -31,7 +31,7 @@
         </g>
       </g>
       <!-- Text -->
-      <text id="Support-via-Gratipay" fill="white" filter="url(#filter-2)" font-family="Helvetica, arial, freesans, clean, sans-serif" font-size="13px" font-weight="bold">
+      <text id="Support-via-Gratipay" fill="white" filter="url(#filter-2)" font-family="Helvetica, arial, freesans, clean, sans-serif" font-size="14px" font-weight="bold">
         <tspan x="50" y="28" fill="#FFFFFF">Support via Gratipay</tspan>
       </text>
     </g>
