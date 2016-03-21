@@ -1,8 +1,8 @@
 {
-  "name": "gratipay-badge",
-  "description": "GitHub styled badge for Gratipay",
+  "name": "paypal-github-button",
+  "description": "GitHub styled button for PayPal",
   "version": "2.3.0",
-  "homepage": "https://github.com/gratipay/gratipay-badge",
+  "homepage": "https://github.com/twolfson/paypal-github-button",
   "author": {
     "name": "Todd Wolfson",
     "email": "todd@twolfson.com",
@@ -10,17 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gratipay/gratipay-badge.git"
+    "url": "git://github.com/twolfson/paypal-github-button.git"
   },
   "bugs": {
-    "url": "https://github.com/gratipay/gratipay-badge/issues"
+    "url": "https://github.com/twolfson/paypal-github-button/issues"
   },
-  "licenses": [
-    {
-      "type": "UNLICENSE",
-      "url": "https://github.com/gratipay/gratipay-badge/blob/master/UNLICENSE"
-    }
-  ],
+  "license": "Unlicense",
   "engines": {
     "node": ">= 0.10.0"
   },
