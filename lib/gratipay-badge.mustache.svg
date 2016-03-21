@@ -22,13 +22,13 @@
   </defs>
   <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <!-- Button -->
-    <rect id="rect2987" stroke="#5CA941" fill="url(#gradient-button)" x="0" y="0" width="{{button.innerWidth}}" height="{{button.innerHeight}}" rx="3"></rect>
-    <!-- Gratipay heart -->
+    <rect stroke="#5CA941" fill="url(#gradient-button)" x="0" y="0" width="{{button.innerWidth}}" height="{{button.innerHeight}}" rx="3"></rect>
+    <!-- Logo -->
     <g transform="translate({{logo.left}} {{logo.top}}) scale(0.014)">
       {{{logo.content}}}
     </g>
     <!-- Text -->
-    <text id="Support-via-Gratipay" fill="white" filter="url(#filter-text-shadow)" font-family="{{button.fontFamily}}" font-size="{{button.fontSize}}" font-weight="{{button.fontWeight}}">
+    <text fill="white" filter="url(#filter-text-shadow)" font-family="{{button.fontFamily}}" font-size="{{button.fontSize}}" font-weight="{{button.fontWeight}}">
       <tspan x="{{text.left}}" y="{{text.baselineTop}}" fill="#FFFFFF">{{text.content}}</tspan>
     </text>
   </g>
