@@ -14,6 +14,17 @@
     "innerWidth": 199.625,
     "width": 200.625
   },
+  "logo": {
+    "bottom": 35,
+    "height": 27,
+    "left": 10,
+    "ratio": 0.4444444444444444,
+    "right": 37,
+    "svgHeight": 12,
+    "svgWidth": 12,
+    "top": 8,
+    "width": 27
+  },
   "text": {
     "baselineTop": 29,
     "bottom": 31,
