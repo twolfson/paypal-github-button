@@ -4,6 +4,9 @@ GitHub styled button for [PayPal][]
 
 ![PayPal button](http://rawgit.com/twolfson/paypal-github-button/master/dist/button.svg)
 
+- TODO: Update Markdown and HTML references
+- TODO: Update donating link at footer
+
 ## Usage
 To ensure you are using a stable badge, we suggest you use a semver'd badge.
 
@@ -20,14 +23,6 @@ To ensure you are using a stable badge, we suggest you use a semver'd badge.
 ```
 
 ### Raw URL
-**PNG:**
-
-```
-https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/gratipay.png
-```
-
-**SVG:**
-
 ```
 https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg
 ```
@@ -41,14 +36,33 @@ https://cdn.rawgit.com/twolfson/paypal-github-button/1.2.x/dist/button.svg
 ```
 
 ## Documentation
-The latest images are located under `dist/gratipay.png` and `dist/button.svg`. If you would like to build your own, run `./build.sh`.
+### Architecture
+For scripting a conversion from HTML to SVG, we run the following steps:
 
-You must have [PhantomJS][] and [pngcrush][] installed for the build script to work. We require [pngcrush][] since the output from [PhantomJS][] is approximately 12x larger.
+1. Extract HTML information from an HTML button using GitHub's styles
+    - This is done via [Electron][] to guarantee font accuracy
+2. Generate an SVG from a template using HTML information
+    - This is done via [Mustache][]
+3. Optimize SVG (e.g. remove whitespace)
+    - This is done via [SVGO][]
 
-If you would like to adjust the image, you can find the HTML reference page in `lib/index.html`. It is suggested that you use [serve][] and [livereload][] to host and develop against the image.
+### Building
+To build the latest image, run the following steps:
 
-[PhantomJS]: http://phantomjs.org/
-[pngcrush]: http://pmt.sourceforge.net/pngcrush/
+```bash
+# Clone the repository
+git clone https://github.com/twolfson/paypal-github-button
+cd paypal-github-button
+
+# Install our dependencies
+npm install
+
+# Run our build script
+npm run build
+```
+
+If you would like to adjust the image, you can find the HTML reference page in `lib/index.html`. It is suggested that you use [serve][] and [LiveReload][] to host and develop against the image.
+
 [serve]: https://npmjs.org/package/serve
 [livereload]: https://github.com/lepture/python-livereload
 

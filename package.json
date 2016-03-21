@@ -49,8 +49,13 @@
         "type": "customCommand",
         "updateFiles": "npm run build && git add dist"
       },
+      {
+        "type": "customCommand",
+        "updateFiles": "./update-semver.sh \"$FOUNDRY_VERSION\""
+      },
       "foundry-release-git",
-      "foundry-release-npm"
+      "foundry-release-git-semver-branches",
+      "foundry-release-npm",
     ]
   }
 }
