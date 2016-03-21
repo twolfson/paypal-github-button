@@ -50,7 +50,7 @@
       },
       "foundry-release-git",
       "foundry-release-git-semver-branches",
-      "foundry-release-npm",
+      "foundry-release-npm"
     ]
   }
 }
