@@ -33,14 +33,24 @@
   "dependencies": {},
   "devDependencies": {
     "electron-prebuilt": "~0.37.2",
-    "foundry": "~3.0.0",
-    "foundry-release-git": "~1.1.0",
+    "foundry": "~4.3.2",
+    "foundry-release-git": "~2.0.2",
     "foundry-release-git-semver-branches": "~1.1.0",
-    "foundry-release-npm": "~1.1.0",
+    "foundry-release-npm": "~2.0.2",
     "mustache": "~2.2.1",
     "svgo": "~0.6.3",
     "underscore": "~1.8.3"
   },
   "keywords": [],
-  "private": true
+  "private": true,
+  "foundry": {
+    "releaseCommands": [
+      {
+        "type": "customCommand",
+        "updateFiles": "npm run build && git add dist"
+      },
+      "foundry-release-git",
+      "foundry-release-npm"
+    ]
+  }
 }
