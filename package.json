@@ -25,8 +25,10 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
+    "build": "npm run extract-html-info && npm run generate-svg && npm run optimize-svg",
     "extract-html-info": "electron lib/scripts/extract-html-info.main.js > lib/html-info.json",
-    "generate-svg": "mkdir -p dist && mustache lib/html-info.json lib/button.mustache.svg > dist/button.svg"
+    "generate-svg": "mkdir -p dist && mustache lib/html-info.json lib/button.mustache.svg > dist/button.svg",
+    "optimize-svg": "svgo --disable convertPathData --input dist/button.svg --output dist/button.svg"
   },
   "dependencies": {},
   "devDependencies": {
@@ -36,6 +38,7 @@
     "foundry-release-git-semver-branches": "~1.1.0",
     "foundry-release-npm": "~1.1.0",
     "mustache": "~2.2.1",
+    "svgo": "~0.6.3",
     "underscore": "~1.8.3"
   },
   "keywords": [],

@@ -1,5 +1,5 @@
-# gratipay-badge release runbook
-`gratipay-badge` is a complex beast due to the image coming directly from the repository. As a result, it is necessary to document the steps to make sure nothing is missed.
+# Releasing
+`paypal-github-button` is a complex beast due to the image coming directly from the repository. As a result, it is necessary to document the steps to make sure nothing is missed.
 
 In the future, we hope to make the release a 1 step process:
 
