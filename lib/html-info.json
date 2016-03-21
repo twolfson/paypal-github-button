@@ -11,8 +11,8 @@
     "fontWeight": "bold",
     "height": 40.703125,
     "innerHeight": 39.703125,
-    "innerWidth": 193.625,
-    "width": 194.625
+    "innerWidth": 182.515625,
+    "width": 183.515625
   },
   "logo": {
     "bottom": 32.703125,
@@ -29,11 +29,11 @@
   "text": {
     "baselineTop": 24,
     "bottom": 26,
-    "content": "Support via Gratipay",
+    "content": "Support via PayPal",
     "height": 16,
     "left": 38,
-    "right": 178.609375,
+    "right": 167.5,
     "top": 10,
-    "width": 140.609375
+    "width": 129.5
   }
 }

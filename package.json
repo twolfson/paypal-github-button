@@ -26,7 +26,7 @@
   },
   "scripts": {
     "extract-html-info": "electron lib/scripts/extract-html-info.main.js > lib/html-info.json",
-    "generate-svg": "mkdir -p dist && mustache lib/html-info.json lib/gratipay-badge.mustache.svg > dist/gratipay-badge.svg"
+    "generate-svg": "mkdir -p dist && mustache lib/html-info.json lib/button.mustache.svg > dist/button.svg"
   },
   "dependencies": {},
   "devDependencies": {
