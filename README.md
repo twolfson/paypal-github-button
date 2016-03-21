@@ -2,20 +2,20 @@
 
 GitHub styled button for [PayPal][]
 
-![PayPal button](http://rawgit.com/gratipay/gratipay-badge/master/dist/gratipay.svg)
+![PayPal button](http://rawgit.com/twolfson/paypal-github-button/master/dist/button.svg)
 
 ## Usage
 To ensure you are using a stable badge, we suggest you use a semver'd badge.
 
 ### Markdown
 ```md
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg)](https://gratipay.com/USERNAME/)
+[![Support via Gratipay](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://gratipay.com/USERNAME/)
 ```
 
 ### HTML
 ```html
 <a href="https://gratipay.com/USERNAME/">
-  <img alt="Support via Gratipay" src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg"/>
+  <img alt="Support via Gratipay" src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg"/>
 </a>
 ```
 
@@ -23,37 +23,25 @@ To ensure you are using a stable badge, we suggest you use a semver'd badge.
 **PNG:**
 
 ```
-https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png
+https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/gratipay.png
 ```
 
 **SVG:**
 
 ```
-https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg
+https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg
 ```
 
 ### Minor and patch releases
-As of `2.0.0`, we offer variable minor and patch branches. For example, if you would like `gratipay-badge@2` but would like backwards compatible changes in the future, then you can use `2.x.x` over `2.3.0`.
-
-**PNG:**
+We offer variable minor and patch branches. For example, if you would like `gratipay-badge@1` but would like backwards compatible changes in the future, then you can use `1.x.x` over `1.0.0`.
 
 ```
-// Allow minor updates
-https://cdn.rawgit.com/gratipay/gratipay-badge/2.x.x/dist/gratipay.png
-
-// Allow patch updates
-https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.x/dist/gratipay.png
-```
-
-**SVG:**
-
-```
-https://cdn.rawgit.com/gratipay/gratipay-badge/2.x.x/dist/gratipay.svg
-https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.x/dist/gratipay.svg
+https://cdn.rawgit.com/twolfson/paypal-github-button/1.x.x/dist/button.svg
+https://cdn.rawgit.com/twolfson/paypal-github-button/1.2.x/dist/button.svg
 ```
 
 ## Documentation
-The latest images are located under `dist/gratipay.png` and `dist/gratipay.svg`. If you would like to build your own, run `./build.sh`.
+The latest images are located under `dist/gratipay.png` and `dist/button.svg`. If you would like to build your own, run `./build.sh`.
 
 You must have [PhantomJS][] and [pngcrush][] installed for the build script to work. We require [pngcrush][] since the output from [PhantomJS][] is approximately 12x larger.
 
@@ -69,7 +57,7 @@ Support this project and [others by twolfson][gratipay-twolfson] via [gratipay][
 
 [![Support via Gratipay][gratipay]][gratipay-twolfson]
 
-[gratipay]: https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png
+[gratipay]: https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/gratipay.png
 [gratipay-twolfson]: https://gratipay.com/twolfson/
 
 ## License
