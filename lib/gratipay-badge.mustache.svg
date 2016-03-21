@@ -24,7 +24,7 @@
     <!-- Button -->
     <rect id="rect2987" stroke="#5CA941" fill="url(#gradient-button)" x="0" y="0" width="{{button.innerWidth}}" height="{{button.innerHeight}}" rx="3"></rect>
     <!-- Gratipay heart -->
-    <g transform="translate({{logo.left}} {{logo.top}}) scale(0.9)">
+    <g transform="translate({{logo.left}} {{logo.top}}) scale(0.93)">
       {{{logo.content}}}
     </g>
     <!-- Text -->
