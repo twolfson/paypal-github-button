@@ -9,18 +9,18 @@
     "fontFamily": "Helvetica, arial, freesans, clean, sans-serif",
     "fontSize": "14px",
     "fontWeight": "bold",
-    "height": 49,
-    "innerHeight": 48,
-    "innerWidth": 201.625,
-    "width": 202.625
+    "height": 46,
+    "innerHeight": 45,
+    "innerWidth": 199.625,
+    "width": 200.625
   },
   "text": {
     "baselineTop": 29,
     "bottom": 31,
     "content": "Support via Gratipay",
     "height": 16,
-    "left": 46,
-    "right": 186.609375,
+    "left": 44,
+    "right": 184.609375,
     "top": 15,
     "width": 140.609375
   }
