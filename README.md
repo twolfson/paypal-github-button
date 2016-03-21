@@ -1,40 +1,18 @@
-# gratipay-badge
+# paypal-github-button
 
-GitHub styled badge for [Gratipay][]
+GitHub styled button for [PayPal][]
 
-PNG: ![Gratipay badge][] SVG: ![Gratipay badge][svg-badge]
-
-[Gratipay]: https://gratipay.com/
-[Gratipay badge]: dist/gratipay.png
-[svg-badge]: http://rawgit.com/gratipay/gratipay-badge/master/dist/gratipay.svg
+![PayPal button](http://rawgit.com/gratipay/gratipay-badge/master/dist/gratipay.svg)
 
 ## Usage
-To ensure you are using a stable badge, it is suggested you use a semver'd badge.
+To ensure you are using a stable badge, we suggest you use a semver'd badge.
 
 ### Markdown
-**PNG:**
-
-```md
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/USERNAME/)
-```
-
-**SVG:**
-
 ```md
 [![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg)](https://gratipay.com/USERNAME/)
 ```
 
 ### HTML
-**PNG:**
-
-```html
-<a href="https://gratipay.com/USERNAME/">
-  <img alt="Support via Gratipay" src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png"/>
-</a>
-```
-
-**SVG:**
-
 ```html
 <a href="https://gratipay.com/USERNAME/">
   <img alt="Support via Gratipay" src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg"/>
@@ -95,12 +73,9 @@ Support this project and [others by twolfson][gratipay-twolfson] via [gratipay][
 [gratipay-twolfson]: https://gratipay.com/twolfson/
 
 ## License
-As of Feb 19 2014, Todd Wolfson has released this repository and its contents to the public domain.
+As of Mar 20 2016, Todd Wolfson has released this repository and its contents to the public domain.
 
 It has been released under the [UNLICENSE][].
 
 [UNLICENSE]: UNLICENSE
 
-Previous to this, it was licensed under the [MIT license][].
-
-[MIT license]: https://github.com/gratipay/gratipay-badge/blob/ee5cc0ad6573ef6e80048c7229bc1b7c01942b4c/README.md#license
