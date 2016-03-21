@@ -12,7 +12,15 @@
     "height": 49,
     "innerHeight": 48,
     "innerWidth": 201.625,
-    "text": "Support via Gratipay",
     "width": 202.625
+  },
+  "text": {
+    "bottom": 31,
+    "content": "Support via Gratipay",
+    "height": 16,
+    "left": 46,
+    "right": 186.609375,
+    "top": 15,
+    "width": 140.609375
   }
 }

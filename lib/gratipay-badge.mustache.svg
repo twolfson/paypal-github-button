@@ -30,7 +30,7 @@
       </g>
       <!-- Text -->
       <text id="Support-via-Gratipay" fill="white" filter="url(#filter-text-shadow)" font-family="{{button.fontFamily}}" font-size="{{button.fontSize}}" font-weight="{{button.fontWeight}}">
-        <tspan x="50" y="28" fill="#FFFFFF">{{button.text}}</tspan>
+        <tspan x="50" y="28" fill="#FFFFFF">{{text.content}}</tspan>
       </text>
     </g>
   </g>
