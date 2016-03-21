@@ -7,7 +7,7 @@
       "stopPosition": "0%"
     },
     "fontFamily": "Helvetica, arial, freesans, clean, sans-serif",
-    "fontSize": "14px",
+    "fontSize": "18px",
     "fontWeight": "bold",
     "height": 54.703125,
     "innerHeight": 53.703125,
@@ -27,7 +27,7 @@
     "width": 21
   },
   "text": {
-    "baselineTop": 29,
+    "baselineTop": 33,
     "bottom": 36,
     "content": "Support via PayPal",
     "height": 21,
